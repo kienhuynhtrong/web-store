@@ -1,0 +1,43 @@
+.nav {
+  &_title {
+    font-size: 20px;
+    color: #500619;
+    text-shadow: 2px 4px 8px #fff;
+    font-family: "Rowdies", cursive;
+  }
+  &_logo {
+    max-height: 60px;
+    max-width: 60px;
+    margin-left: 20px;
+  }
+  &_bar {
+    background: rgba(224,217,231,.77);
+    border-radius: 30px;
+    display: flex;
+  }
+  &_list-item {
+    margin: 0px auto;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding:0px;
+      li {
+        font-size: 24px;
+        color: #000;
+        text-decoration: none;
+        list-style: none
+      }
+    }
+  }
+  &_item {
+    padding: 10px;
+    margin: 0 10px;
+    font-feature-settings: "c2sc";
+    font-variant: small-caps;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    font-family: "Acme", sans-serif;
+  }
+
+}
