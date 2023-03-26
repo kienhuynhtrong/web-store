@@ -1,0 +1,26 @@
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    width: 350px;
+    height: 300px;
+    img {
+      max-height: 150px;
+      max-width: 200px;
+    }
+  }
+  &__title {
+    font-family: "Merienda One",cursive;
+    font-size: 12px;
+  }
+  &__price {
+    font-family: "Merienda One",cursive;
+    font-size: 14px;
+  }
+  &__add-to-cart {
+    border-radius: 5px;
+    font-family: "Merienda One",cursive;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}

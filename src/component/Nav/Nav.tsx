@@ -2,8 +2,12 @@ import React from 'react'
 import NikeImage from '../../images/nike.svg'
 import { NavLink } from 'react-router-dom';
 import './index.scss'
+import { useSelector } from 'react-redux';
+
 
 const Nav = () => {
+  const lengthItem :any = useSelector((state:any) => state.cart.lengthItem)
+  console.log(lengthItem)
   return (
     <div className='nav'>
       <h3 className='nav_title'>Nikes Shoes</h3>
@@ -44,6 +48,7 @@ const Nav = () => {
                 </NavLink>
               </li>
             </ul>
+            <div>Item {lengthItem}</div>
           </div>
         </div>
       </nav>

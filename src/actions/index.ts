@@ -12,3 +12,9 @@ export async function getProducts(dispatch: Dispatch<Action>) {
     .then(data => data.json())
     .then(item => dispatch(GET_ALL_PRODUCT(item)))
 }
+export function ADD_TO_CART(data:any) {
+  return {
+    type: 'ADD_TO_CART',
+    data
+  }
+}

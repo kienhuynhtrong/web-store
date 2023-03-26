@@ -6,3 +6,10 @@ export interface ItemShoes {
 export interface ShoesList {
   [key: string]: ItemShoes,
 }
+
+export interface ITemProducts {
+  title: string,
+  price: string,
+  image: string,
+  category: string,
+}

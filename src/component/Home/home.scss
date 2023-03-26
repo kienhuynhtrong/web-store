@@ -1,3 +1,27 @@
 .home {
-  
+  &__wrap-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  &__wrap-items {
+    img {
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+  &__items-name {
+    font-size: 24px;
+    font-family: "Merienda One",cursive;
+    color: purple;
+  }
+  &__items-price {
+    font-size: 14px;
+  }
+  &__items-price {
+    font-size: 10px;
+    font-family: "Merienda One",cursive;
+    color: #606e60;
+    text-shadow: 1px 1px 1px #000;
+  }
 }
