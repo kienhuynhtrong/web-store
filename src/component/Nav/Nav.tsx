@@ -7,7 +7,6 @@ import { useSelector } from 'react-redux';
 
 const Nav = () => {
   const lengthItem :any = useSelector((state:any) => state.cart.lengthItem)
-  console.log(lengthItem)
   return (
     <div className='nav'>
       <h3 className='nav_title'>Nikes Shoes</h3>
