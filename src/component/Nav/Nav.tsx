@@ -47,7 +47,13 @@ const Nav = () => {
                 </NavLink>
               </li>
             </ul>
-            <div>Item {lengthItem}</div>
+            <div>
+              <NavLink
+              to="/cart"
+              >
+              Item {lengthItem}
+              </NavLink>
+              </div>
           </div>
         </div>
       </nav>
